@@ -1,11 +1,17 @@
 .remark-slide-content {
   background-color: #FFFFFF;
   border-top: 80px solid #88398a;
+	font-size: 25px;
 }
 
-.title-slide .inverse .remark-slide-content {
+.title-slide  .remark-slide-content {
   background-color: #FFFFFF;
 }
+
+.inverse {
+  background-color: #88398A;
+}
+
 
 .remark-slide-content > h1 {
   font-family: 'Fira Sans';
@@ -83,6 +89,10 @@ hr, .title-slide h2::after, .mline h1::after {
 	display: block;
 	border: none;
 	background-color: #88398a;
-	color: #88398a; 
+	color: #88398a;
 	height: 1px;
+}
+
+.perfil {
+  font-size: 22px;
 }

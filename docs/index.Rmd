@@ -1,7 +1,7 @@
 ---
 title: "Como usamos R na organização da R-Ladies São Paulo?"
 subtitle: "<center><img src= 'https://beatrizmilz.github.io/slidesR/rladies/img/allisonhorst/community1.jpg' width = '30%' alt='Author: Allison Horst'></br><p>Ilustração por <a href='https://twitter.com/allison_horst' target=_blank>@allison_horst</a></p></center>"
-author: "R-Ladies `r params$capitulo`"
+author: "Jean Prado e Beatriz Milz. R-Ladies `r params$capitulo`"
 date: "Atualizado em `r format(Sys.Date(), format='%d de %B de %Y')`"
 output: 
   xaringan::moon_reader:
@@ -66,19 +66,74 @@ metathis::meta() %>%
 ```
 
 ---
-class: 
+class: perfil
 
 # Quem somos nós?
 
 .pull-left[
-## Jean Prado
+### Jean Prado
 
 ]
 
 .pull-right[
-## Beatriz Milz
+### Beatriz Milz
+<a href='https://beatrizmilz.com'><i class="fas fa-house-user"></i></a>    <a href='mailto:beatriz.milz@usp.br'><i class="far fa-envelope"></i></a>   <a href='https://twitter.com/BeaMilz'  target="_blank"><i class="fab fa-twitter"></i></a>   <a href='https://github.com/beatrizmilz' target="_blank"><i class="fab fa-github"></i></a>   <a href='https://orcid.org/0000-0002-3064-4486' target="_blank"><i class="fab fa-orcid"></i></a>   <a href='http://lattes.cnpq.br/5150665880581477' target="_blank"><i class="ai ai-lattes"></i></a>   <a href='https://beatrizmilz.github.io/resume/index.html' target="_blank"><i class="ai ai-cv"></i></a>   <a href='https://discourse.curso-r.com/u/beatrizmilz/summary' target="_blank"><i class="fab fa-discourse"></i></a> <a href='https://www.instagram.com/beatrizmilz/' target="_blank"><i class="fab fa-instagram"></i></a> 
+
+- [Instrutora de `tidyverse` certificada pela RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/)
+- Co-organizadora: [R-Ladies São Paulo](https://www.meetup.com/R-Ladies-Sao-Paulo/), [satRday São Paulo](https://saopaulo2019.satrdays.org/), [LatinR](https://latin-r.com/pt), [useR! 2021 global](https://user2021.r-project.org/)
+- Doutoranda em Ciência Ambiental (IEE/USP)
+- Mestre em Ciências (UNIFESP)
+- Bacharela em Gestão Ambiental (EACH/USP)
+- [Embaixadora de Inovação Cívica da Open Knowledge Brasil](https://embaixadoras.ok.org.br/).
 
 ]
+
+---
+class: 
+
+# Objetivos 
+
+<br><br>
+
+
+Apresentar alguns projetos/repositórios no GitHub onde utilizamos R, feitos para auxiliar nas atividades de organização da R-Ladies:
+
+- Certificados
+
+- RLadiesTheme
+
+- RLadies Brasil
+
+---
+class: middle, center, inverse
+
+# Certificados
+
+---
+class: 
+
+# Certificados
+
+- Repositório privado no GitHub.
+
+- Projeto de uso interno: apenas para uso das pessoas organizadoras, para enviar os certificados para as pessoas participantes dos eventos.
+
+---
+class: 
+
+# Certificados
+
+- Pacotes utilizados: 
+  - [googlesheets4](https://googlesheets4.tidyverse.org/) - obtenção dos dados no Google Sheets
+  - [janitor](https://garthtarr.github.io/meatR/janitor.html), [dplyr](https://dplyr.tidyverse.org/) - limpeza e manipulação de dados
+  - [rmarkdown](https://rmarkdown.rstudio.com/), [purrr](https://purrr.tidyverse.org/), [xaringan](https://github.com/yihui/xaringan), [pagedown](https://github.com/rstudio/pagedown) - gerar o certificado
+  - [beepr](https://www.r-project.org/nosvn/pandoc/beepr.html) - sons para avisar que o código foi executado
+  - [gmailr](https://gmailr.r-lib.org/) - envio dos emails através da API do gmail
+  
+
+```{r}
+knitr::include_graphics("https://raw.githubusercontent.com/tidyverse/googlesheets4/master/man/figures/logo.png")
+```
 
 
 
@@ -98,9 +153,6 @@ class:
   - [<i class="fab fa-meetup"></i> Meetup](`r params$meetup_url`)
   - [<i class="fab fa-github"></i> GitHub](https://github.com/`r params$github`)
   - [<i class="fab fa-youtube"></i> Youtube](https://www.youtube.com/c/`r params$youtube`)
-
-
-- [Capítulos da R-Ladies no Brasil](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil) - Não tem capítulo na sua cidade e quer iniciar um?  Saiba como em [R-Ladies - How do get involved](https://rladies.org/about-us/help/)! 
 
 
 <center>

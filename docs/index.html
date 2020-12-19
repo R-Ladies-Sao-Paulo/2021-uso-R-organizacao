@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Como usamos R na organização da R-Ladies São Paulo?</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="R-Ladies São Paulo" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
+    <script src="libs/clipboard/clipboard.min.js"></script>
+    <link href="libs/shareon/shareon.min.css" rel="stylesheet" />
+    <script src="libs/shareon/shareon.min.js"></script>
+    <link href="libs/xaringanExtra-shareagain/shareagain.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-shareagain/shareagain.js"></script>
+    <meta name="github-repo" content="R-Ladies-Sao-Paulo/2021-uso-R-organizacao"/>
+    <meta name="twitter:title" content="R-Ladies São Paulo"/>
+    <meta name="twitter:description" content="Apresentação sobre a R-Ladies São Paulo"/>
+    <meta name="twitter:url" content="https://r-ladies-sao-paulo.github.io/2021-uso-R-organizacao/"/>
+    <meta name="twitter:image:src" content="https://r-ladies-sao-paulo.github.io/2021-uso-R-organizacao/img/share-card.png"/>
+    <meta name="twitter:image:alt" content="Primeiro slide da apresentação sobre a R-Ladies São Paulo"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta property="og:title" content="R-Ladies São Paulo"/>
+    <meta property="og:description" content="Apresentação sobre a R-Ladies São Paulo"/>
+    <meta property="og:url" content="https://r-ladies-sao-paulo.github.io/2021-uso-R-organizacao/"/>
+    <meta property="og:image" content="https://r-ladies-sao-paulo.github.io/2021-uso-R-organizacao/img/share-card.png"/>
+    <meta property="og:image:alt" content="Primeiro slide da apresentação sobre a R-Ladies São Paulo"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="en_US"/>
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Como usamos R na organização da R-Ladies São Paulo?
+## <center>
+<img src= 'https://beatrizmilz.github.io/slidesR/rladies/img/allisonhorst/community1.jpg' width = '30%' alt='Author: Allison Horst'></br>
+<p>
+Ilustração por <a href='https://twitter.com/allison_horst' target=_blank><span class="citation">@allison_horst</span></a>
+</p>
+</center>
+### R-Ladies São Paulo
+### Atualizado em 19 de dezembro de 2020
+
+---
+
+layout: true
+  
+
+
+
+
+<div>
+<style type="text/css">.xaringan-extra-logo {
+width: 110px;
+height: 128px;
+z-index: 0;
+background-image: url(https://beatrizmilz.github.io/slidesR/introR/img/rainbow-inclusive.png);
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+top:1em;right:1em;
+}
+</style>
+<script>(function () {
+  let tries = 0
+  function addLogo () {
+    if (typeof slideshow === 'undefined') {
+      tries += 1
+      if (tries < 10) {
+        setTimeout(addLogo, 100)
+      }
+    } else {
+      document.querySelectorAll('.remark-slide-content:not(.title-slide):not(.inverse):not(.hide_logo)')
+        .forEach(function (slide) {
+          const logo = document.createElement('a')
+          logo.classList = 'xaringan-extra-logo'
+          logo.href = 'https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil'
+          slide.appendChild(logo)
+        })
+    }
+  }
+  document.addEventListener('DOMContentLoaded', addLogo)
+})()</script>
+</div>
+
+
+
+
+
+---
+class: 
+
+# Quem somos nós?
+
+.pull-left[
+## Jean Prado
+]
+
+.pull-right[
+## Beatriz Milz
+
+]
+
+
+
+---
+class:
+
+# Saiba mais sobre a R-Ladies
+.pull-left[
+
+- R-Ladies Global: [Website](https://rladies.org/), [&lt;i class="fab fa-twitter"&gt;&lt;/i&gt; Twitter](https://twitter.com/rladiesglobal)
+
+
+- R-Ladies São Paulo: 
+  - [&lt;i class="fab fa-twitter"&gt;&lt;/i&gt; Twitter](https://twitter.com/RLadiesSaoPaulo)
+  - [&lt;i class="fab fa-instagram"&gt;&lt;/i&gt; Instagram](https://instagram.com/RLadiesSaoPaulo)
+  - [&lt;i class="fab fa-facebook"&gt;&lt;/i&gt; Facebook](https://facebook.com/RLadiesSaoPaulo)
+  - [&lt;i class="fab fa-meetup"&gt;&lt;/i&gt; Meetup](https://www.meetup.com/rladies-sao-paulo/)
+  - [&lt;i class="fab fa-github"&gt;&lt;/i&gt; GitHub](https://github.com/R-Ladies-Sao-Paulo)
+  - [&lt;i class="fab fa-youtube"&gt;&lt;/i&gt; Youtube](https://www.youtube.com/c/RLadiesSãoPaulo)
+
+
+- [Capítulos da R-Ladies no Brasil](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil) - Não tem capítulo na sua cidade e quer iniciar um?  Saiba como em [R-Ladies - How do get involved](https://rladies.org/about-us/help/)! 
+
+
+&lt;center&gt;
+&lt;a class="github-button" href="https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Star R-Ladies-Sao-Paulo/RLadies-Brasil on GitHub"&gt;Capítulos e eventos online da R-Ladies no Brasil&lt;/a&gt;
+&lt;/center&gt;
+
+]
+
+
+
+.pull-right[
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://beatrizmilz.github.io/slidesR/rladies/img/allisonhorst/principio_agora_pt.png" alt="Ilustração por &amp;lt;a href='https://twitter.com/allison_horst' target=_blank&amp;gt;@allison_horst&amp;lt;/a&amp;gt;" width="70%" /&gt;
+&lt;p class="caption"&gt;Ilustração por &lt;a href='https://twitter.com/allison_horst' target=_blank&gt;@allison_horst&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+- Apresentação feita por [Beatriz Milz](https://beatrizmilz.com) com o pacote [xaringan](https://github.com/yihui/xaringan), com o tema `metropolis` modificado.
+]
+
+
+
+
+&lt;!-- inicio font awesome --&gt;
+&lt;script src="https://kit.fontawesome.com/1f72d6921a.js" crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;!-- final font awesome --&gt;
+
+&lt;!-- inicio github buttons  --&gt;
+&lt;script async defer src="https://buttons.github.io/buttons.js"&gt;&lt;/script&gt;
+&lt;!-- final github buttons  --&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="libs/remark-latest.min.js"></script>
+<script>var slideshow = remark.create();
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

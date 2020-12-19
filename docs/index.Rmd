@@ -1,0 +1,131 @@
+---
+title: "Como usamos R na organização da R-Ladies São Paulo?"
+subtitle: "<center><img src= 'https://beatrizmilz.github.io/slidesR/rladies/img/allisonhorst/community1.jpg' width = '30%' alt='Author: Allison Horst'></br><p>Ilustração por <a href='https://twitter.com/allison_horst' target=_blank>@allison_horst</a></p></center>"
+author: "R-Ladies `r params$capitulo`"
+date: "Atualizado em `r format(Sys.Date(), format='%d de %B de %Y')`"
+output: 
+  xaringan::moon_reader:
+    lib_dir: libs
+    chakra: libs/remark-latest.min.js
+    css: [default, metropolis, metropolis-fonts, "custom.css"]
+#knit: pagedown::chrome_print
+# Altere os parâmetros abaixo:
+params:
+  capitulo: São Paulo
+  twitter: RLadiesSaoPaulo
+  instagram: RLadiesSaoPaulo
+  facebook: RLadiesSaoPaulo
+  youtube: RLadiesSãoPaulo
+  github: R-Ladies-Sao-Paulo
+  github_repo_apresentacao: R-Ladies-Sao-Paulo/2021-uso-R-organizacao
+  url_apresentacao: https://r-ladies-sao-paulo.github.io/2021-uso-R-organizacao/
+  url_share_card: https://r-ladies-sao-paulo.github.io/2021-uso-R-organizacao/img/share-card.png
+  meetup_url: https://www.meetup.com/rladies-sao-paulo/
+---
+layout: true
+  
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  fig.align = "center",
+  message = FALSE,
+  warning = FALSE
+)
+
+library(magrittr)
+```
+
+
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_logo(image_url = "https://beatrizmilz.github.io/slidesR/introR/img/rainbow-inclusive.png",
+                        link_url = "https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil")
+
+```
+
+```{r xaringanExtra-share-again, echo=FALSE}
+xaringanExtra::use_share_again()
+```
+
+```{r metathis, echo=FALSE}
+metathis::meta() %>%
+  metathis::meta_name("github-repo" = params$github_repo_apresentacao) %>% 
+  metathis::meta_social(
+    title = glue::glue("R-Ladies {params$capitulo}"),
+    description = glue::glue(
+      "Apresentação sobre a R-Ladies {params$capitulo}"
+    ),
+    url = params$url_apresentacao,
+    image = params$url_share_card,
+    image_alt = glue::glue(
+      "Primeiro slide da apresentação sobre ",
+      "a R-Ladies {params$capitulo}"
+    ))
+```
+
+---
+class: 
+
+# Quem somos nós?
+
+.pull-left[
+## Jean Prado
+
+]
+
+.pull-right[
+## Beatriz Milz
+
+]
+
+
+
+---
+class:
+
+# Saiba mais sobre a R-Ladies
+.pull-left[
+
+- R-Ladies Global: [Website](https://rladies.org/), [<i class="fab fa-twitter"></i> Twitter](https://twitter.com/rladiesglobal)
+
+
+- R-Ladies `r params$capitulo`: 
+  - [<i class="fab fa-twitter"></i> Twitter](https://twitter.com/`r params$twitter`)
+  - [<i class="fab fa-instagram"></i> Instagram](https://instagram.com/`r params$instagram`)
+  - [<i class="fab fa-facebook"></i> Facebook](https://facebook.com/`r params$facebook`)
+  - [<i class="fab fa-meetup"></i> Meetup](`r params$meetup_url`)
+  - [<i class="fab fa-github"></i> GitHub](https://github.com/`r params$github`)
+  - [<i class="fab fa-youtube"></i> Youtube](https://www.youtube.com/c/`r params$youtube`)
+
+
+- [Capítulos da R-Ladies no Brasil](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil) - Não tem capítulo na sua cidade e quer iniciar um?  Saiba como em [R-Ladies - How do get involved](https://rladies.org/about-us/help/)! 
+
+
+<center>
+<a class="github-button" href="https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Star R-Ladies-Sao-Paulo/RLadies-Brasil on GitHub">Capítulos e eventos online da R-Ladies no Brasil</a>
+</center>
+
+]
+
+
+
+.pull-right[
+```{r fig.cap="Ilustração por <a href='https://twitter.com/allison_horst' target=_blank>@allison_horst</a>" , out.width="70%"}
+knitr::include_graphics("https://beatrizmilz.github.io/slidesR/rladies/img/allisonhorst/principio_agora_pt.png")
+```
+
+- Apresentação feita por [Beatriz Milz](https://beatrizmilz.com) com o pacote [xaringan](https://github.com/yihui/xaringan), com o tema `metropolis` modificado.
+]
+
+
+
+
+<!-- inicio font awesome -->
+<script src="https://kit.fontawesome.com/1f72d6921a.js" crossorigin="anonymous"></script>
+<!-- final font awesome -->
+
+<!-- inicio github buttons  -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<!-- final github buttons  -->

@@ -5,7 +5,7 @@
 }
 
 .title-slide  .remark-slide-content {
-  background-color: #FFFFFF;
+  background-color: #FFFFFF !important;
 }
 
 .inverse {
@@ -56,7 +56,7 @@ position: absolute;
   font-weight: 400;
   text-align: center;
   margin-left: 15px;
-  padding-top: 80px;
+
 }
 .title-slide > h2  {
   margin-top: -25px;
@@ -95,4 +95,9 @@ hr, .title-slide h2::after, .mline h1::after {
 
 .perfil {
   font-size: 22px;
+}
+
+.titulo{
+ 	background-color: #FFFFFF;
+ 	border-top: 0px solid #88398a;
 }

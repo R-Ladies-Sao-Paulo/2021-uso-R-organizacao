@@ -118,11 +118,38 @@ class:
 
 Apresentar alguns projetos/repositórios no GitHub onde utilizamos R, feitos para auxiliar nas atividades de organização da R-Ladies:
 
+- [Robô de boas vindas](https://github.com/R-Ladies-Sao-Paulo/rladies-sp-welcome-bot)
+ 
 - Certificados
 
 - RLadiesTheme
 
 - RLadies Brasil
+
+---
+class: middle, center, inverse
+
+# Robô de boas vindas
+
+---
+class: 
+
+# Robô de boas vindas
+
+- Pessoas colaboradoras:
+  - Jean Prado
+
+
+- Principais pacotes utilizados: 
+  - [telegram.bot](https://github.com/ebeneditos/telegram.bot)
+---
+
+class: middle, center, diagramas, hide-logo
+
+# Exemplo de mensagem enviada
+
+&lt;img src="img/telegrambot.png" width="60%" style="display: block; margin: auto;" /&gt;
+
 
 ---
 class: middle, center, inverse
@@ -136,9 +163,15 @@ class:
 
 - Repositório privado no GitHub.
 
-- Projeto de uso interno: apenas para uso das pessoas organizadoras, para enviar os certificados para as pessoas participantes dos eventos.
+- Projeto de uso interno: apenas para uso das pessoas organizadoras.
 
-- Pessoas colaboradoras: Geovanna Lopes, Ianni Muliterno,  Jean Prado, Beatriz Milz
+- Objetivo: facilitar o envio de certificados para as pessoas participantes dos eventos.
+
+- Pessoas colaboradoras:
+  - Geovanna Lopes
+  - [Ianní Muliterno](https://www.linkedin.com/in/iann%C3%AD-muliterno/)
+  - Jean Prado
+  - Beatriz Milz
 
 ---
 class: middle, center, diagramas, hide-logo
@@ -167,13 +200,72 @@ class:
 
 # Certificados
 
-- Pacotes utilizados: 
+- Principais pacotes usados:
   - [googlesheets4](https://googlesheets4.tidyverse.org/) - obtenção dos dados no Google Sheets
   - [janitor](https://github.com/sfirke/janitor), [dplyr](https://dplyr.tidyverse.org/) - limpeza e manipulação de dados
   - [rmarkdown](https://rmarkdown.rstudio.com/), [purrr](https://purrr.tidyverse.org/), [xaringan](https://github.com/yihui/xaringan), [pagedown](https://github.com/rstudio/pagedown) - gerar o certificado
   - [beepr](https://www.r-project.org/nosvn/pandoc/beepr.html) - sons para avisar que o código foi executado
   - [gmailr](https://gmailr.r-lib.org/) - envio dos emails através da API do gmail
   
+- Possibilidade de melhorias:
+  - Diminuir necessidade de mudança/escrita..
+  - Melhorar o fluxo para cada tipo de certificado (pessoas organizadoras, pessoas participantes, pessoas palestrantes)
+
+---
+class: middle, center, inverse
+
+# RLadiesTheme
+
+
+---
+class: 
+
+# RLadiesTheme
+
+- Objetivo: disponibilizar temas em RMarkdown de uso da comunidade R-Ladies São Paulo 
+
+- Como surgiu ?
+
+  - Apresentação sobre a comunidade R-Ladies São Paulo, que usamos no começo de todos os eventos.
+
+  - Primeira versão dessa apresentação foi criada em dezembro de 2018
+
+
+---
+class: 
+
+# RLadiesTheme
+
+- Principais pacotes usados:
+  - [actions](https://github.com/r-lib/actions) - GitHub Actions para a comunidade R
+  - [rmarkdown](https://rmarkdown.rstudio.com/), [xaringan](https://github.com/yihui/xaringan), [pagedown](https://github.com/rstudio/pagedown), xaringanExtra, 
+  - fs 
+  - pacotes do tidyverse
+  
+- Próximos passos:
+  - Mudar o tema CSS da apresentação com xaringan;
+  - Testar a instalação do pacote em outros computadores;
+  - Pedir para pessoas de outros capítulos testarem e fazer sugestões;
+  - Documentar no README sobre como usar o pacote;
+  - Expandir os templates Rmd... sugestões?
+
+---
+class: middle, center, inverse
+
+# RLadiesBrasil
+
+
+
+---
+class: 
+
+# RLadiesBrasil
+
+- Principais pacotes usados:
+  - [actions](https://github.com/r-lib/actions) - GitHub Actions para a comunidade R
+  - [rmarkdown](https://rmarkdown.rstudio.com/)
+  - meetupr
+  - sodium, cyphr
 
 ---
 class:

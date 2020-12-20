@@ -42,8 +42,11 @@ library(magrittr)
 
 
 ```{r xaringanExtra, echo=FALSE}
-xaringanExtra::use_logo(image_url = "https://beatrizmilz.github.io/slidesR/introR/img/rainbow-inclusive.png",
-                        link_url = "https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil")
+xaringanExtra::use_logo(
+  image_url = "https://beatrizmilz.github.io/slidesR/introR/img/rainbow-inclusive.png",
+  link_url = "https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil",
+  exclude_class = c("hide-logo", "title-slide")
+)
 
 ```
 
@@ -119,6 +122,36 @@ class:
 - Repositório privado no GitHub.
 
 - Projeto de uso interno: apenas para uso das pessoas organizadoras, para enviar os certificados para as pessoas participantes dos eventos.
+
+- Pessoas colaboradoras: Geovanna Lopes, Ianni Muliterno,  Jean Prado, Beatriz Milz
+
+---
+class: middle, center, diagramas, hide-logo
+
+# Exemplo do certificado gerado
+
+
+```{r echo=FALSE}
+knitr::include_graphics("img/exemplo_certificado.png")
+```
+
+---
+class: middle, center, diagramas, hide-logo
+
+# Exemplo do email enviado
+
+```{r echo=FALSE}
+knitr::include_graphics("img/certificado-email.png")
+```
+
+
+---
+class: diagramas, hide-logo
+
+```{r, out.width="90%", fig.align='center'}
+knitr::include_graphics("img/certificados.png")
+```
+
 
 ---
 class: 

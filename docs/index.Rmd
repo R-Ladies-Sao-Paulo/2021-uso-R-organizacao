@@ -103,13 +103,13 @@ class:
 
 Apresentar alguns projetos/repositórios no GitHub onde utilizamos R, feitos para auxiliar nas atividades de organização da R-Ladies:
 
-- [Robô de boas vindas](https://github.com/R-Ladies-Sao-Paulo/rladies-sp-welcome-bot)
+- [Robô de boas vindas](https://github.com/R-Ladies-Sao-Paulo/rladies-sp-welcome-bot) <a class="github-button" href="https://github.com/R-Ladies-Sao-Paulo/rladies-sp-welcome-bot" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star R-Ladies-Sao-Paulo/RLadies-Brasil on GitHub">Star</a>
  
-- Certificados
+- [Certificados](https://github.com/R-Ladies-Sao-Paulo/certificados)
 
-- RLadiesTheme
+- [RLadiesTheme(https://github.com/R-Ladies-Sao-Paulo/RLadiesTheme) <a class="github-button" href="https://github.com/R-Ladies-Sao-Paulo/RLadiesTheme" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star R-Ladies-Sao-Paulo/RLadies-Brasil on GitHub">Star</a>
 
-- RLadies Brasil
+- [RLadies Brasil](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil) <a class="github-button" href="https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star R-Ladies-Sao-Paulo/RLadies-Brasil on GitHub">Star</a>
 
 ---
 class: middle, center, inverse

@@ -1,6 +1,6 @@
 ---
 title: "Como usamos R na organização da R-Ladies São Paulo?"
-subtitle: "<center><img src= 'img/preview.png' width = '80%' alt='Author: Allison Horst'></center>"
+subtitle: "<center><img src= 'img/preview.png' width = '100%'></center>"
 author: "Jean Prado e Beatriz Milz. R-Ladies `r params$capitulo`"
 date: "Atualizado em `r format(Sys.Date(), format='%d de %B de %Y')`"
 output: 
@@ -155,7 +155,7 @@ class:
 - Objetivo: facilitar o envio de certificados para as pessoas participantes dos eventos.
 
 - Pessoas colaboradoras:
-  - Geovanna Lopes
+  - [Geovanna Lopes](https://www.linkedin.com/in/geovanalopes/)
   - [Ianní Muliterno](https://www.linkedin.com/in/iann%C3%AD-muliterno/)
   - Jean Prado
   - Beatriz Milz
@@ -221,7 +221,23 @@ class:
 
   - Apresentação sobre a comunidade R-Ladies São Paulo, que usamos no começo de todos os eventos.
 
-  - Primeira versão dessa apresentação foi criada em dezembro de 2018
+  - Primeira versão dessa apresentação foi criada em dezembro de 2018.
+  
+  - A apresentação apresenta dados gerados a partir da base do R Community Explorer.
+  
+  - A cada evento a gente knitava o documento para que os números fossem atualizados.
+  
+  
+---
+class: 
+
+# RLadiesTheme
+
+- Como surgiu ? (continuação)
+  
+  - Ideia: automatizar a atualização da apresentação.
+  
+  - Ideia 2: deixar a apresentação como um tema no RMarkdown para que qualquer pessoa consiga utilizar e adaptar para diferentes capítulos.
 
 
 ---
@@ -231,9 +247,7 @@ class:
 
 - Principais pacotes usados:
   - [actions](https://github.com/r-lib/actions) - GitHub Actions para a comunidade R
-  - [rmarkdown](https://rmarkdown.rstudio.com/), [xaringan](https://github.com/yihui/xaringan), [pagedown](https://github.com/rstudio/pagedown), xaringanExtra, 
-  - fs 
-  - pacotes do tidyverse
+  - [rmarkdown](https://rmarkdown.rstudio.com/), [xaringan](https://github.com/yihui/xaringan), [pagedown](https://github.com/rstudio/pagedown), xaringanExtra, fs, tidyverse
   
 - Próximos passos:
   - Mudar o tema CSS da apresentação com xaringan;

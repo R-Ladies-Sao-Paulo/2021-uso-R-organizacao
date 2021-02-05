@@ -107,7 +107,7 @@ Apresentar alguns projetos/repositórios no GitHub onde utilizamos R, feitos par
  
 - [Certificados](https://github.com/R-Ladies-Sao-Paulo/certificados)
 
-- [RLadiesTheme(https://github.com/R-Ladies-Sao-Paulo/RLadiesTheme) <a class="github-button" href="https://github.com/R-Ladies-Sao-Paulo/RLadiesTheme" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star R-Ladies-Sao-Paulo/RLadies-Brasil on GitHub">Star</a>
+- [RLadiesTheme](https://github.com/R-Ladies-Sao-Paulo/RLadiesTheme) <a class="github-button" href="https://github.com/R-Ladies-Sao-Paulo/RLadiesTheme" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star R-Ladies-Sao-Paulo/RLadies-Brasil on GitHub">Star</a>
 
 - [RLadies Brasil](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil) <a class="github-button" href="https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star R-Ladies-Sao-Paulo/RLadies-Brasil on GitHub">Star</a>
 
